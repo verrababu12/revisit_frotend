@@ -1,0 +1,127 @@
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://res.cloudinary.com/daehuqvdc/image/upload/v1744459766/Best_WordPress_eCommerce_Themes__Top_10_Picks_for_2024_nkw8lp.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 4px;
+  /* background: #7ad58e; */
+  width: 35%;
+  min-height: 450px;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  color: #ffffff; /* White text for contrast */
+}
+.heading {
+  font-family: "BreeSerif";
+  font-size: 28px;
+  color: aqua;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.input-field {
+  height: 30px;
+  margin-top: 5px;
+  font-size: 14px;
+  border: 1px solid #d7dfe9;
+  color: #0e0d0d;
+  border-radius: 2px;
+  padding: 8px 16px 8px 16px;
+}
+.input-label {
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 15px;
+  color: #f56cce;
+}
+.signup-btn {
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #fff;
+  height: 40px;
+  width: 30%;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.signup-btn:hover {
+  background-color: #084ccd;
+}
+.login-btn {
+  font-family: "Roboto";
+  background-color: #0b69ff;
+  height: 40px;
+  width: 130px;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .card-container {
+    width: 80%; /* Increase width for better usability */
+    min-height: auto; /* Allow dynamic height */
+    padding: 15px;
+  }
+
+  .heading {
+    font-size: 24px; /* Reduce font size */
+  }
+
+  .input-container {
+    width: 100%; /* Take full width */
+  }
+
+  .input-field {
+    font-size: 14px;
+    padding: 8px;
+    height: 35px;
+  }
+
+  .signup-btn {
+    width: 50%; /* Make button larger */
+    font-size: 14px;
+  }
+}
+
+/* Further optimizations for very small screens */
+@media (max-width: 480px) {
+  .card-container {
+    width: 90%; /* Almost full width */
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .input-field {
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  .signup-btn {
+    width: 60%; /* Bigger button */
+    height: 35px;
+  }
+}
