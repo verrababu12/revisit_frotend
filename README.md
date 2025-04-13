@@ -1,12 +1,97 @@
-# React + Vite
+# Clothing Categories Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# A full-stack web application built with React.js, Node.js, Express.js, and MongoDB (or SQLite) that allows users to sign up, log in, and manage clothing categories using JWT-based authentication.
 
-Currently, two official plugins are available:
+# 🚀 Hosted Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🔗 Frontend (Vercel/Netlify): [(https://revisit-frotend.vercel.app/)]
 
-## Expanding the ESLint configuration
+# 🔗 Backend (Render): [(https://revisit-backend-jp04.onrender.com)]
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛠️ Tech Stack
+
+# Frontend
+
+# React.js (Functional Components + Hooks)
+
+# React Router DOM
+
+# Fetch
+
+# CSS Modules
+
+# Backend
+
+# Node.js
+
+# Express.js
+
+# MongoDB (Mongoose)
+
+# JWT (jsonwebtoken)
+
+# CORS
+
+# dotenv
+
+# 🔐 Features
+
+# 1. Authentication
+
+# Signup & Login pages
+
+# JWT-based authentication system
+
+# Token stored in localStorage for session persistence
+
+# Private routes protected with token validation
+
+# 2. Dashboard
+
+# Display all clothing categories in a responsive grid layout
+
+# Each category card shows:
+
+# Category Image
+
+# #Category Name (e.g., Summer Clothes)
+
+# Item Count (e.g., 26 items)
+
+# 3. Add New Category (Optional)
+
+# "Add Category" button opens a form modal
+
+# Inputs: Category Name, Item Count, and Image Upload
+
+# After submission, new category appears in the dashboard
+
+# 4. Edit Category
+
+# Update the category's name, image, or item count
+
+# Pre-filled form on edit button click
+
+# Updates reflected immediately after saving
+
+# How to Run Locally
+
+# 🔧 Backend Setup
+
+# git clone https://github.com/verrababu12/revisit_backend.git
+
+# cd backend
+
+# npm install
+
+# node server.js
+
+# 🖥️ Frontend Setup
+
+# git clone https://github.com/verrababu12/revisit_frotend.git
+
+# cd revisit-category-management
+
+# npm install
+
+# npm run dev
